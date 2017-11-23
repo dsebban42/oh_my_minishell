@@ -6,12 +6,10 @@
 /*   By: dsebban <dsebban@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/30 14:03:40 by dsebban           #+#    #+#             */
-/*   Updated: 2016/11/27 11:20:29 by dsebban          ###   ########.fr       */
+/*   Updated: 2017/11/23 17:04:24 by didier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <curses.h>
-#include <termcap.h>
 #include <signal.h>
 #include "libft.h"
 #include "minishell.h"
