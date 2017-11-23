@@ -1,0 +1,39 @@
+exec_test:
+built-ins:
+cd
+cd -
+cd --
+cd -
+cd ~/
+cd -
+cd ~
+cd -
+cd $HOME
+cd $HOME/dsebrepos
+cd permission_denied
+cd not_present
+cd /
+cd /tmp
+echo $var
+echo foo
+echo "foo"
+echo "$VAR"
+echo "$var"/bin
+env
+env -i ./minishell
+env -i ls
+env -u PATH ls
+env PATH="" ls
+ls
+env ./minishell
+unsetenv PATH
+ls
+setenv PATH="/bin"
+ls
+setenv PATH=/bin
+PATH=""
+ls
+PATH="/bin/ls"
+ls
+PATH="/bin"
+ls
